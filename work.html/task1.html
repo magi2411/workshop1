@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROCERY FORM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .price{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: start;
+            text-align: center;
+        }
+        .center{
+            justify-content: center;
+            text-align: center;
+        }
+        body{
+            text-align: center;
+        }
+
+
+        h1{
+            font-weight: 300;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+        }
+
+        .titlebar{
+            background-color: rgb(234, 248, 34);
+            display: flex;
+            gap: 40px;
+            font-size: x-large;
+            
+            padding: 20px;
+            justify-self: center;
+        
+            
+        }
+    
+        
+    </style>
+    
+
+
+</head>
+<body>
+    <div class="titlebar">
+        <h1>SUPERMARKET</h1>
+        <li>home</li>
+        <li>about us</li>
+        <li>email</li>
+        <li>contact us</li>
+    </div>
+   
+
+
+
+
+
+
+
+    <h1>WELCOME TO PANIMALAR SUPERMARKET</h1><hr>
+    <h3>Customer Detail</h3>
+    <div class="center">
+    <form action="detail">
+        <input type="text" placeholder="NAME"><br>
+        <input type="text"placeholder="phone number"><br>
+        <input type="text"placeholder="address"><br>
+        <input type="date"placeholder="deleivery date"><br>
+        <input type="time"placeholder="deleivery time"><br>
+
+    </form>
+</div>
+    <h2>list OF GROCERY</h2>
+    <form action="list">
+        <input type="text"placeholder="enter the item ">
+    </form>
+    <div class="price">
+        <div class="tag" style="width: 18rem;">
+            <img src="pexels-julia-nagy-568948-1327838.jpg" height= "100" width="100" alt="tomato">
+            <div class="lastdiv">
+                <h5>mrp= <strike>₹40</strike>₹30</h5>
+                <p>fresh vegetable and organic</p>
+                <form action="button">
+                    <input type="submit">
+                </form>
+            
+
+            </div>
+
+
+        </div>
+    </div>
+    
+    <style>
+        body{
+            background-image: url(super\ market.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+            
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+    <footer>copyright @2005 by magi</footer>
+
+</body>
+</html>
